@@ -1,3 +1,9 @@
+.Title{
+  padding: 10px;
+  border-radius: 10px;
+  color:black;
+  background-color: aqua;
+}
 .Central-text{
   display: flex;
   flex-direction: column;
@@ -13,16 +19,37 @@
   
 }
 .save{
-  margin-left: 200px;
+  
   padding: 10px;
-  display: flex;
   margin-top: 10px;
-  background-color: aqua;
+  background-color: white;
+  align-self: center;
+}
+.save:hover{
+  background-color:aqua;
 }
 .input-box textarea{
-  padding: 150px;
+  height: 300px;
+  width: 400px;
+  resize: none;
+  align-self: center;
+  padding: 10px;
   border-color: blue;
   border-style:double;
   border-width: 5px;
   
+}
+.ToggleButtonBar{
+  width: 200px;
+  display: inline-flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.tbutn{
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+.tbutn.active{
+  background-color: green;
 }
