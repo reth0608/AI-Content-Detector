@@ -5,3 +5,4 @@ The **AI-Content Detector** project aims to detect whether a given text is AI-ge
 
 ## Team Members
 Joseph J C (JoeChala)
+Abhinav Kumar Mishra (masked5)
